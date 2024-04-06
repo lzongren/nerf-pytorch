@@ -12,10 +12,8 @@ cd logs
 echo "Download flower_test pre-trained model"
 rm -rf flower_test
 gdown --folder https://drive.google.com/drive/folders/1573Sa1xlNh-F7jSQa-XB858KvDjpe2xA
-mv flower_test logs/
 
 # download and place fern_test
 echo "Download fern_test pre-trained model"
 rm -rf fern_test
 gdown --folder https://drive.google.com/drive/folders/1PIWs8aeT48FHORaF8E7vKc0KyVKJ1Hlg
-mv fern_test logs/
